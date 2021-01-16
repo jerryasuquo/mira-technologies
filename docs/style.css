@@ -1,0 +1,179 @@
+/* Contact Form */
+/* Body style */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',
+    Arial,
+    Helvetica,
+    sans-serif;
+}
+
+html {
+    font-size: 16px;
+    height: 100vh;
+}
+
+body {
+    font-size: 13px;
+    background-color: #ede7f6;
+}
+
+#navbar {
+    background-color: #1A237E;
+    padding: .75rem 1.7rem;
+    height: 4rem;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+#navbar a {
+    text-decoration: none;
+}
+
+#navbar .mira-icon {
+    float: left;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+#navbar .mira-text {
+    float: left;
+    color: #FEFEFE;
+    font-size: 23px;
+    margin-top: .4rem;
+}
+
+#navbar .register-box {
+    position: absolute;
+    width: 7.5rem;
+    height: 4rem;
+    top: 0;
+    right: .15rem;
+    padding-top: 1.45rem;
+}
+
+#navbar .register-box:hover {
+    background-color: #10127E;
+    cursor: pointer;
+}
+
+#navbar .register {
+    float: left;
+    color: #FEFEFE;
+    text-decoration: none;
+    font-family: 'Roboto',
+    sans-serif;
+    font-size: 15px;
+    padding-left: .95rem;
+    letter-spacing: .21px;
+}
+
+/* Contact form */
+
+#contact {
+    padding: 4rem;
+}
+
+#form-header-icon,
+#form-header-login,
+#form-header-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#form-header-icon .form-icon img {
+    width: 60px;
+    height: 60px;
+}
+
+#form-header-login h1 {
+    color: #1A237E;
+    font-weight: 500;
+    font-size: 34px;
+    margin: 1.5rem 0 .85rem 0;
+}
+
+#form-header-text p {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#form-box {
+display: flex;
+justify-content: center;
+}
+
+.form {
+    background-color: #FFF;
+    width: 28.5rem;
+    /* height: 258px; */
+    margin-top: 1.2rem;
+    padding: 2.2rem 1.85rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.input-contact {
+    padding: .16rem 0;
+    border: 0;
+    width: 100%;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+    */ color: #202124;
+}
+
+.input-contact[placeholder="Email"],
+.input-contact[placeholder="Password"] {
+font-size: 1.05rem;
+font-weight: 400;
+}
+
+.password {
+    margin-top: 1.7rem;
+}
+
+/* Submit Button */
+
+.submit {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.submit input {
+    width: 12.5rem;
+    height: 2.4rem;
+    padding: 0 1rem;
+    background-color: #1A237E;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.submit input[value="LOGIN"] {
+    font-size: 14px;
+}
+
+.submit input:hover {
+    cursor: pointer;
+}
+
+.forgot {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.forgot a {
+    color: #1A237E;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.forgot a:hover {
+    color: #0044ff;
+}
